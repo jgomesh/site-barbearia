@@ -6,13 +6,17 @@ body {
 }
 
 h1,h2,h3,h4.h5,h6 {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 a {
   text-decoration: none;
   transition: all 0.4s ease;
   font-weight: 800;
+}
+
+img {
+  width: 100%;
 }
 
 .navbar {
@@ -44,15 +48,12 @@ section {
   width: 100%;
   height: 100%;
   background: linear-gradient(#00e0fe4d, #0f07fe5d);
-  z-index: -2;
+  z-index: -1;
 }
 
-a {
-  color: rgb(119, 118, 118) !important;
-}
 
-header {
-  z-index: 100;
+.navbar  {
+  background-color: rgba(255, 255, 255, 0.582) !important;
 }
 
 .hero-section {
@@ -64,6 +65,7 @@ header {
 
 .btn {
   padding: 14px 22px;
+  transition: all 0.3s ease;
 }
 
 .btn-main {
@@ -71,4 +73,78 @@ header {
   border: none;
   border-radius: 25px;
   color: white !important;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: white;
+  transform: translateY(-5px);
+}
+
+.section-intro .div{
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  height: 2px;
+  width: 70px;
+  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  margin: 16px auto;
+}
+
+.service .service-img {
+  position: relative;
+
+}
+
+.service .service-img .icon{
+  width: 90px;
+  height: 90px;
+  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service .service-img .icon i {
+  font-size: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  background:  -webkit-linear-gradient(#00e0fe, #0f07fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent ;  
+}
+
+#about {
+  background-image: url(../img/barber-home2.jpg);
+  background-position: center;
+}
+
+.video-btn {
+  width: 60px;
+  height: 60px;
+  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 100px;
+}
+
+.uil-play {
+  font-size: 2em;
+}
+
+.feature i {
+  background:  -webkit-linear-gradient(#00e0fe, #0f07fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-size: 54px;
 }
