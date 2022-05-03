@@ -4,16 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Babearia LIVE</title>
+
+    <!-- AOS  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Babearia</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- HEADER -->
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
         <div class="container">
           <a class="navbar-brand" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +33,16 @@
                 <a class="nav-link" href="#services">Serviços</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">Sobre nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#features">Experiência</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#reviews">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">Contato</a>
               </li>
             </ul>
           </div>
@@ -54,14 +56,13 @@
       <div class="container text-white text-center">
         <div class="row">
           <div class="col-12">
-            <h1 class="display-4">We Design Remarkable and <br>
-              Stunning Hairs</h1>
-            <p class="my-4">
+            <h1 class="display-4" data-aos="zoom-in">Bem vindo a Logos Barbearia!<br> Agende um horário.</h1>
+            <p class="my-4" data-aos="fade-up">
               There are many Lorem ipsum dolor sit amet consectetur, 
               adipisicing elit. Quasi labore ipsa fugit minima reprehenderit.<br>
               have suferred, iusto consequuntur vitae quae nostrum maxime asperiores maiores fuga quisquam? Non, numquam. Ratione, velit numquam!
             </p>
-            <a href="#" class='btn btn-main'>Get started</a>
+            <a href="#" class='btn btn-main' data-aos="fade-up">Agendar</a>
           </div>
         </div>
       </div>
@@ -71,8 +72,8 @@
     <section id="services" class="text-center">
       <div class="container">
         <div class="row">
-          <div class="cow-12 section-intro text-center">
-            <h1>Ours Services</h1>
+          <div class="cow-12 section-intro text-center" data-aos="fade-up">
+            <h1>Nossos serviços</h1>
             <div class="divider"></div>
             <p class="">
               There are many Lorem ipsum dolor sit amet consectetur, 
@@ -81,34 +82,34 @@
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row fotos-sec">
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="service">
               <div class="service-img">
                 <img src="./img/barber1.jpg" alt="">
                 <div class="icon"><i class="uil uil-credit-card"></i></div>
               </div>
-              <h5 class="mt-5 pt-4">Service Name</h5>
+              <h5 class="mt-5 pt-4">Cabelo/ Barba</h5>
               <p>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit earum fugit labore pariatur qui. Iure totam aliquam ea? Quam fuga molestiae cum assumenda iure quae facilis necessitatibus ex labore dignissimos?</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="service">
               <div class="service-img">
                 <img src="./img/barber2.jpg" alt="">
                 <div class="icon"><i class="uil uil-ruler"></i></div>
               </div>
-              <h5 class="mt-5 pt-4">Service Name</h5>
+              <h5 class="mt-5 pt-4">Barba</h5>
               <p>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit earum fugit labore pariatur qui. Iure totam aliquam ea? Quam fuga molestiae cum assumenda iure quae facilis necessitatibus ex labore dignissimos?</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="service">
               <div class="service-img">
                 <img src="./img/barber3.jpg" alt="">
                 <div class="icon"><i class="uil uil-head-side"></i></div>
               </div>
-              <h5 class="mt-5 pt-4">Service Name</h5>
+              <h5 class="mt-5 pt-4">Cabelo</h5>
               <p>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit earum fugit labore pariatur qui. Iure totam aliquam ea? Quam fuga molestiae cum assumenda iure quae facilis necessitatibus ex labore dignissimos?</p>
             </div>
           </div>
@@ -122,8 +123,8 @@
       </div>
       <div class="container text-white text-center">
         <div class="row">
-          <div class="cow-12 section-intro text-center">
-            <h1>Watch our video</h1>
+          <div class="cow-12 section-intro text-center" data-aos="fade-up">
+            <h1>Veja nosso vídeo</h1>
             <div class="divider"></div>
             <p class="">
               There are many Lorem ipsum dolor sit amet consectetur, 
@@ -140,8 +141,8 @@
     <section id="features" class="text-center">
       <div class="container">
         <div class="row">
-          <div class="cow-12 section-intro text-center">
-            <h1>Ours Features</h1>
+          <div class="cow-12 section-intro text-center" data-aos="fade-up">
+            <h1>Experiência</h1>
             <div class="divider"></div>
             <p class="">
               There are many Lorem ipsum dolor sit amet consectetur, 
@@ -151,37 +152,37 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-pen"></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
           </div>
 
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-window"></i></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
           </div>
 
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-calendar-alt"></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
           </div>
 
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-camera"></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
           </div>
 
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-meeting-board"></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
           </div>
 
-          <div class="col-md-4 feature">
+          <div class="col-md-4 feature" data-aos="fade-up">
             <div class="icon"><i class="uil uil-puzzle-piece"></i></div>
             <h5 class="mt-4 mb-3">Feature Title</h5>
             <p>There are many Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit at necessitatibus dolores ab. Cum ducimus, quaerat illo commodi nihil in repellendus eligendi a ratione error maxime facere! Aperiam, quas?</p>
@@ -190,7 +191,223 @@
       </div>
     </section>
 
+     <!-- COUNTERS-->
+    <section id="counters" class="bg-cover">
+      <div class="overlay">
+      </div>
+      <div class="container text-white text-center">
+        <div class="row gy-4" data-aos="fade-up">
+         <div class="col-md-3">
+          <i class="uil uil-user icon-counter"></i>
+          <h1 class="mt-4 mb-2">45,00</h1>
+          <p>Clientes</p>
+         </div>
+
+         <div class="col-md-3">
+          <i class="uil uil-camera icon-counter"></i>
+          <h1 class="mt-4 mb-2">120k</h1>
+          <p>Fotos tiradas</p>
+         </div>
+
+         <div class="col-md-3">
+          <i class="uil uil-smile icon-counter"></i>
+          <h1 class="mt-4 mb-2">108</h1>
+          <p>Happy Clients</p>
+         </div>
+
+         <div class="col-md-3">
+          <i class="uil uil-trophy icon-counter"></i>
+          <h1 class="mt-4 mb-2">13</h1>
+          <p>Premiações</p>
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWSS -->
+    <section id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="cow-12 section-intro text-center">
+            <h1>Avaliações</h1>
+            <div class="divider"></div>
+            <p class="">
+              There are many Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Quasi labore ipsa fugit minima reprehenderit.<br>
+              have suferred, iusto consequuntur vitae quae nostrum maxime asperiores maiores fuga quisquam? Non, numquam. Ratione, velit numquam!
+            </p>
+          </div>
+        </div>
+        <div class="row g-4 gy-5 text-left">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente2.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente1.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente3.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente1.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente3.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="review p-4">
+              <div class="person">
+                <img src="./img/cliente2.jpg" alt="">
+                <div class="text ms-3">
+                  <h6>John Walker</h6>
+                  <p>Google</p>
+                </div>
+              </div>
+              <p class="pt-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam, ex veritatis autem inventore ea voluptatum repellat nisi velit! Voluptates animi aperiam vitae repellat ab illo quod eius unde quisquam!</p>
+            
+            <div>
+              <i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i><i class="uis uis-star"></i>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-cover text-white">
+      <div class="overlay">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="cow-12 section-intro text-center" data-aos="fade-up">
+            <h1>Fale com a gente!</h1>
+            <div class="divider"></div>
+            <p class="">
+              There are many Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Quasi labore ipsa fugit minima reprehenderit.<br>
+              have suferred, iusto consequuntur vitae quae nostrum maxime asperiores maiores fuga quisquam? Non, numquam. Ratione, velit numquam!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form action="#" class="row g-4">
+              <div class="form-group col-md-6">
+                <input type="text" class='form-control' name="" id="" placeholder="Nome completo">
+              </div>
+
+              <div class="form-group col-md-6">
+                <input type="email" class='form-control' name="" id="" placeholder="Email">
+              </div>
+
+              <div class="form-group col-md-12">
+                <input type="text" class='form-control' name="" id="" placeholder="Subject">
+              </div>
+
+              <div class="form-group col-md-12">
+                <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+              </div>
+
+              <div class="text-center">
+                <button class="btn btn-main" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-down">
+            <p class="mb-0">Copyright © 2022: João Otávio Gomes Hugill</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#"><i class="uil uil-facebook-f"></i></a>
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-github"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
