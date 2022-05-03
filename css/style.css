@@ -47,13 +47,13 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#00e0fe4d, #0f07fe5d);
+  background: linear-gradient(rgba(104, 84, 84, 0.397), #ffee0033);
   z-index: -1;
 }
 
 
 .navbar  {
-  background-color: rgba(255, 255, 255, 0.582) !important;
+  background-color: rgba(129, 105, 105, 0.473) !important;
 }
 
 .hero-section {
@@ -69,16 +69,18 @@ section {
 }
 
 .btn-main {
-  background: linear-gradient(to left, #00e0fe, #0f07fe);
+  background: linear-gradient(to left, rgba(104, 84, 84, 0.397), #eee01871);
   border: none;
   border-radius: 25px;
   color: white !important;
   font-weight: 600;
+  transition: .5s;
 }
 
 .btn:hover {
   color: white;
   transform: translateY(-5px);
+  transition: .5s;
 }
 
 .section-intro .div{
@@ -88,7 +90,7 @@ section {
 .section-intro .divider {
   height: 2px;
   width: 70px;
-  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  background : linear-gradient(to left, rgba(104, 84, 84, 0.397), #eee01871);
   margin: 16px auto;
 }
 
@@ -100,7 +102,7 @@ section {
 .service .service-img .icon{
   width: 90px;
   height: 90px;
-  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  background : linear-gradient(to left, rgb(104, 84, 84), #eee018);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -117,7 +119,7 @@ section {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  background:  -webkit-linear-gradient(#00e0fe, #0f07fe);
+  background:  -webkit-linear-gradient(rgba(104, 84, 84, 0.397), #eee018fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent ;  
 }
@@ -130,12 +132,13 @@ section {
 .video-btn {
   width: 60px;
   height: 60px;
-  background : linear-gradient(to left, #00e0fe, #0f07fe);
+  background : linear-gradient(to left, rgba(104, 84, 84, 0.658), #cec00293);
   display: inline-flex;
   justify-content: center;
   align-items: center;
   color: white;
   border-radius: 100px;
+  transition: .5s;
 }
 
 .uil-play {
@@ -143,8 +146,108 @@ section {
 }
 
 .feature i {
-  background:  -webkit-linear-gradient(#00e0fe, #0f07fe);
+  background: -webkit-linear-gradient(rgba(104, 84, 84, 0.397), #eee01871);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent ;   
   font-size: 54px;
+}
+
+#services {
+  height: 100%;
+}
+
+#counters {
+  background-image: url(../img/barber-home3.jpg);
+  background-position: center;
+}
+
+.video-btn:hover {
+  color: white !important;
+  transition: .5s;
+}
+
+.video-btn i:hover {
+  color: white !important;
+  opacity: 50%;
+  transition: .5s;
+}
+
+.icon-counter {
+  font-size: 3em;
+}
+
+#about {
+  position: relative;
+}
+
+/* REVIEW */
+.review {
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.24);
+}
+
+.review .person {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+  padding-bottom: 18px;
+}
+
+.review .person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+}
+
+.uis-star {
+  background: -webkit-linear-gradient(rgb(104, 84, 84), #eee018);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent ;   
+  font-size: 2em;
+}
+
+/* CONTACT */
+
+#contact {
+  background-image: url(../img/barber-home2.jpg);
+  background-position: center;
+}
+
+form .form-control {
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.479) !important;
+}
+
+form input.form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: white;
+} 
+
+form .form-control:focus {
+  color: white;
+  background: transparent;
+  border: none !important;
+  border-color: rgba(255, 255, 255, 0.479) !important;
+}
+
+footer {
+  background : linear-gradient(to left, rgba(104, 84, 84, 0.144), #cec00293);
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+}
+
+footer a:hover {
+  color: rgba(0, 0, 0, 0.404);
+}
+
+.fotos-sec {
+  margin-top: 100px;
 }
